@@ -5,19 +5,13 @@
       src="../assets/images/avatar.jpg"
       class="main-photo"
     />
-    <HelloWorld msg="¡Bienvenidos a mi página!" />
+    <h1>¡Bienvenidos a mi página!</h1>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
+  name: "Home"
 };
 </script>
 

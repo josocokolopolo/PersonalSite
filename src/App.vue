@@ -4,7 +4,9 @@
       <router-link to="/">Inicio</router-link> |
       <router-link to="/about">Acerca de mi</router-link>
     </div>
-    <router-view />
+    <div id="view-wrapper">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -28,5 +30,10 @@
       color: #42b983;
     }
   }
+}
+
+#view-wrapper {
+  max-width: 1000px;
+  margin: auto;
 }
 </style>
