@@ -4,7 +4,7 @@
     <about-item
       imageUrl="professional.jpg"
       imageAlt="Professional"
-      text="Soy un ingeniero de software, especializado en aplicaciones web, con
+      text="Soy ingeniero de software, especializado en aplicaciones web, con
       conocimientos de desarrollo front-end y back-end, además de bases de datos
       y conocimientos iniciales de manejo de ciclo de vida de aplicaciones."
     />
