@@ -26,11 +26,11 @@ p {
   vertical-align: middle;
 }
 img {
-  width: 10%;
+  width: 15%;
 }
 p {
   box-sizing: border-box;
-  width: 90%;
+  width: 85%;
   margin: 0;
   padding-left: 2em;
   text-align: left;
