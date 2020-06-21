@@ -18,5 +18,7 @@ export default {
 <style lang="scss" scoped>
 .main-photo {
   border-radius: 50%;
+  width: 100%;
+  max-width: 500px;
 }
 </style>

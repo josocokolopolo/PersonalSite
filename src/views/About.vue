@@ -2,21 +2,23 @@
   <div class="about">
     <h1>Jhon Solier Collazos</h1>
     <about-item
-      imageUrl="professional.jpg"
+      :imageUrl="require('@/assets/images/professional.jpg')"
       imageAlt="Professional"
       text="Soy ingeniero de software, especializado en aplicaciones web, con
       conocimientos de desarrollo front-end y back-end, además de bases de datos
       y conocimientos iniciales de manejo de ciclo de vida de aplicaciones."
     />
+    <hr />
     <about-item
-      imageUrl="sports.jpg"
+      :imageUrl="require('@/assets/images/sports.jpg')"
       imageAlt="Sports"
       text="También me gusta hacer deporte, especialmente patinaje urbano y artes
       marciales, es importante buscar el equilibrio entre la vida profesional y
       la personal."
     />
+    <hr />
     <about-item
-      imageUrl="photography.jpg"
+      :imageUrl="require('@/assets/images/photography.jpg')"
       imageAlt="Photography"
       text="Últimamente también he encontrado una curiosidad por la fotografía, la
       panadería y respostería, es muy posible que pronto tenga una página
